@@ -1,0 +1,5 @@
+a,b=map(int,input().split())
+x=a*(b%10)
+y=a*int(b%100/10)
+z=a*int(b/100)
+print(x+y*10+z*100)
